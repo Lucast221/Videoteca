@@ -1,5 +1,14 @@
-import React from "react";
+import styled from "styled-components";
 
-export default function Header() {
-    <h1>Header</h1>
+export const Container = styled.header`
+ width: 100vw;
+ height: 50px;
+ padding: 0px 20px;
+
+ display: flex;
+ align-items: center;
+
+& h3 {
+    color: #1e1e1e
 }
+`;
