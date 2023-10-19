@@ -12,7 +12,7 @@ export default function VideoList() {
                     id={1}
                     title="Title teste"
                     link="https://www.youtube.com/watch?v=BnnbP7pCIvQ&list=RDBnnbP7pCIvQ&start_radio=1"
-                    liked={false}
+                    liked={true}
                 />
                 <AddVideo />
             </VideoListWrapper>

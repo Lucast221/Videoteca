@@ -10,9 +10,11 @@ export default function Video({ id, title, link, liked }) {
         <li>
             <Container>
                 <h2>{title}</h2>
-                <span>{link}</span>
+                <a href={link} target="">
+                    {link}
+                </a>
                 <ButtonArea>
-                    <Button>
+                    <Button liked={liked}>
                         <IoThumbsUp />
                     </Button>
                     <Button>
