@@ -1,10 +1,11 @@
 require("dotenv").config();
 
+const connectToDatabse = require("./database")
 const express = require("express");
+const cors = require("cors");
+const mongoose = require("mongoose");
 
 const routes = require("./routes");
-const connectToDatabse = require("./database")
-const cors = require("cors");
 
 connectToDatabse();
 

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-//Função para conecção com o banco de dados mongo
+//Função para conexão com o banco de dados mongo
 function connectToDatabse() {
     mongoose.connect(
         process.env.DATABASE_URL,
