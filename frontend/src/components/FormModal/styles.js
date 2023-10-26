@@ -102,7 +102,7 @@ export const Footer = styled.footer`
 
   & > button {
     align-self: center;
-    background: #77ee44;
+    background: #69ef39;
     border: none;
     border-radius: 6px;
     width: 150px;
